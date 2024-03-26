@@ -1,0 +1,415 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  display:flex;
+  justify-content: space-evenly;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: greenyellow;
+  height: 10.67vh;
+  width:100%;
+  position: fixed;
+  background-color: rgb(0, 0, 0);
+  color: rgba(128, 128, 128, 0.676);
+  font-family:Inter, Roboto,'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+  font-weight:initial;
+  padding: 20px;
+ 
+  }
+.wrapper{
+  padding-top: 20px;
+  display: flex;
+  cursor: pointer;
+}
+.logo {
+  padding:10px;
+  margin-inline: 10px;
+  align-items: bottom;
+  cursor: pointer;
+}
+.wrapper .store{
+  padding: 0px 30px 0px ;
+}
+.wrapper .store:hover{
+color: white;
+}
+.wrapper .store:active{
+  color: white;
+  border: solid;
+  border-left:blue ;
+  border-top:blue ;
+  border-width: 2px;
+  border-color: rgb(34, 170, 255);
+  }
+.wrapper .pc{
+  padding: 0px 30px
+}
+.wrapper .pc:hover{
+  color: white;
+  }
+.wrapper .pc:active{
+  color: white;
+  border-bottom: solid;
+  border-left: solid;
+  border-right: solid;
+  border-width: 2px;
+  border-color: rgb(34, 170, 255);
+}
+.wrapper .console{
+  padding: 0px 30px}
+.wrapper .console:hover{
+  color: white;
+  }
+.wrapper .console:active{
+  color: white;
+  border-bottom: solid;
+  border-left: solid;
+  border-right: solid;
+  border-width: 2px;
+  border-color: rgb(34, 170, 255);
+ }
+.wrapper .mobile{
+  padding: 0px 30px
+}
+.wrapper .mobile:hover{
+  color: white;
+  }
+.wrapper .mobile:active{
+  color: white;
+  border-bottom: solid;
+  border-left: solid;
+  border-right: solid;
+  border-width: 2px;
+  border-color: rgb(34, 170, 255);
+  }
+.wrapper .lifestyle{
+  padding: 0px 30px}
+.wrapper .lifestyle:hover{
+  color: white;
+  }
+.wrapper .lifestyle:active{
+  color: white;
+  border-bottom: solid;
+  border-left: solid;
+  border-right: solid;
+  border-width: 2px;
+  border-color: rgb(34, 170, 255);
+}
+.wrapper .services{
+  padding: 0px 30px
+}
+.wrapper .services:hover{
+  color: white;
+  }
+.wrapper .services:active{
+  color: white;
+  border-bottom: solid;
+  border-left: solid;
+  border-right: solid;
+  border-width: 2px;
+  border-color: rgb(34, 170, 255);
+}
+.wrapper .community{
+  padding: 0px 30px
+}
+.wrapper .community:hover{
+  color: white;
+  }
+.wrapper .community:active{
+  color: white;
+  border-bottom: solid;
+  border-left: solid;
+  border-right: solid;
+  border-width: 2px;
+  border-color: rgb(34, 170, 255);
+}
+
+.wrapper .support{
+  padding: 0px 30px
+}
+.wrapper .support:hover{
+  color: white;
+  }
+.wrapper .support:active{
+    color: white;
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+    border-width: 2px;
+    border-color: rgb(34, 170, 255);
+  }
+.wrapper .search{
+  padding: 0px 30px;
+  opacity:0.5;
+}
+.wrapper .search:active{
+  opacity: 1;
+  border-bottom: solid;
+  border-left: solid;
+  border-right: solid;
+  border-width: 2px;
+  border-color: rgb(34, 170, 255);
+}
+.wrapper .search:hover{
+ opacity: 1;
+  }
+.wrapper .cart{
+  padding: 0px 30px;
+  background: black;
+  opacity: 0.5;
+}
+.wrapper .cart:hover{
+  opacity: 1;
+  }
+.wrapper .cart:active{
+    border-bottom: solid;
+    opacity: 1;
+    border-left: solid;
+    border-right: solid;
+    border-width: 2px;
+    border-color: rgb(34, 170, 255);
+  }
+.second-space{
+  background-color: rgb(103, 103, 103);
+  padding-top: 86px;
+  height: 120px;
+  text-align: center;
+  color: white;
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+}
+.second-space t{
+  cursor: pointer;
+}
+.second-space .sh{
+  color: white;
+  text-decoration: none;
+}
+.head32{
+  margin-left: 10px
+}
+.second-space .sh:hover{
+  text-decoration: underline;}
+.second-space .sh:active{
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(34, 170, 255);}
+.head3:hover{
+    text-decoration: underline;}
+.head3:active{
+   border: solid;
+    border-width: 2px;
+    border-color: rgb(34, 170, 255);}
+.head31:hover{
+    text-decoration: underline;}
+.head31:active{
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(34, 170, 255);}
+.head32:hover{
+    text-decoration: underline;}
+.head32:active{
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(34, 170, 255);}
+.wrapper1 {
+  display: grid;
+  height: 2540px;
+  grid-row: 3;
+  grid-column: 1;
+  row-gap:5px;
+  background-color: rgb(62, 62, 62);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  cursor: pointer;
+}
+.grid-item1{  
+  height: 130vh;
+  background-image:url("/razor/images/New folder/razer-blade-14-homepage-desktop2x.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.wrapper1 h1{
+  font-family: "Roboto", sans-serif;
+  margin: 50px 0px 10px;
+  font-size: 50px;
+  font-weight: 400px;
+}
+.wrapper1 h2{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 15px;
+  font-size: 30px;
+}
+.wrapper1 .head3{
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.wrapper1 .head3 #l{
+  margin-right: 30px;
+}
+.grid-item2{
+  background-image:url("/razor/images/New folder/razer-esports-vct-masters-homepage-desktop2x.webp");
+  height: 130vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200%;
+}
+.grid-item3{
+  height: 110vh;
+  background-image:url("/razor/images/New folder/seiren-v3-b-950x580-desktop.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 108%;
+}
+.wrapper2 {
+  display: grid;
+  height: 1660px;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(62, 62, 62);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  cursor: pointer;
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-content: center;
+}
+.wrapper2 .grid-item11{
+  background-image:url("/razor/images/New folder/hammerhead-multiplatform-b-950x580-desktop.webp");
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 180%;
+}
+.wrapper2 .grid-item12{
+  background-image:url("/razor/images/New folder/razer-blade16-2024-b-950x580-desktop.webp");
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 180%;
+}
+.wrapper2 .grid-item13{
+  background-image:url("/razor/images/New folder/razer-iskur-v2-homepage-b-950x580-desktop.webp ");
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 180%;
+  color: aliceblue;
+  text-align: center;
+}
+.wrapper2 .grid-item14{
+  background-image:url("/razor/images/New folder/razer-black-desert-online-8th-anniversary-collab-b-950x580-desktop.webp");
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 180%;
+}
+.wrapper2 .grid-item15{
+  background-image:url("/razor/images/New folder/razer-blackshark-v2-hyperspeed-white-b-950x580-desktop.webp");
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 180%;
+}
+.wrapper2 .grid-item16{
+  background-image:url("/razor/images/New folder/razer-gamer-room-line-950x580-desktop.webp");
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 180%;
+}
+.wrapper2 h1{
+  margin: 50px 0px 10px;
+  font-size: 40px;
+  font-weight: 400px;
+}
+.wrapper2 h2{
+  margin: 15px;
+  font-size: 20px;
+  font-weight: 100;
+}
+.wrapper2 .head3{
+  font-size: 18px;
+  font-weight: 100;
+}
+.wrapper2 .head3 .head31{
+  margin-right: 30px;}
+footer .foot1{
+  display: flex;
+  justify-content: space-between;
+}
+.foot1 li{
+  cursor: pointer;
+  color: grey;
+  margin: 15px 10px 15px 0px;
+}
+footer ul {
+  font-size: 13px;
+  list-style-type: none;
+}
+.foot1{
+  border-bottom: 1px;
+  border: solid;
+  border-width: 1px;
+  border-color: aliceblue;
+  padding: 40px;
+  color: aliceblue;
+  background-color: black;
+}
+.foot1 .un5 li{
+  margin: 0px; 
+}
+.foot1 .un6{
+  color: lime;
+}
+.foot2{
+  padding: 15px 30px 40px 30px;
+  font-size: 13px;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+  background-color: black;
+}
+footer .foot1 li:hover{
+ color: white;
+ text-decoration: underline;
+}
+footer .foot1 li:active{
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(34, 170, 255);
+ }
+footer .foot2 .first1 :hover{
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+ }
+ footer .foot2 .first1 :active{
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(34, 170, 255);
+ }
+ .second :hover{
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+ }
+ .second :active{
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(34, 170, 255);
+ }
